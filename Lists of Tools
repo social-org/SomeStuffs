@@ -7,11 +7,35 @@ https://github.com/GDSSecurity/Windows-Exploit-Suggester/blob/master/windows-exp
 https://github.com/martindube/hs2015/blob/master/Prez.pdf
 http://aetherlab.net/
 
+https://revision3.com/haktip/nmap-101-how-to-output-to-a-file
+
 https://github.com/drwetter/testssl.sh/issues/234
 
 http://blogs.digium.com/2009/03/28/sip-security/
+### Mimikatz ###
+http://sysadminconcombre.blogspot.ca/2015/07/how-to-reveal-windows-10-password.html
+
 
 ##### PCI DSS ####
 http://linux-audit.com/linux-systems-guide-to-achieve-pci-dss-compliance-and-certification/
 https://www.pcicomplianceguide.org/pci-dss-v3-1-and-ssl-what-you-should-do-now/
 http://blog.marcfredericgomez.fr/pci-dss/
+
+#### Reverse SSH ###
+https://chamibuddhika.wordpress.com/2012/03/21/ssh-tunnelling-explained/
+http://xmodulo.com/access-linux-server-behind-nat-reverse-ssh-tunnel.html
+http://zarb.org/~gc/html/udp-in-ssh-tunneling.html
+https://stackoverflow.com/questions/19269385/how-to-bypass-firewall-and-nat-with-reverse-ssh-tunnel
+http://wiki.korben.info/tunnel_ssh
+http://www.lambot.info/ssh-petit-guide-pratique/
+https://unix.stackexchange.com/questions/46235/how-does-reverse-ssh-tunneling-work
+https://openclassrooms.com/courses/mise-en-place-d-un-tunnel-tcp-ip-via-ssh
+file:///Users/jsgrenon/Downloads/reverse-ssh-tunneling.pdf
+http://www.thegeekstuff.com/2013/11/reverse-ssh-tunnel/
+http://geekfault.org/2011/02/19/reverse-ssh-acceder-a-un-serveur-derriere-un-natfirewall/
+
+http://www.linuxjournal.com/content/ssh-tunneling-poor-techies-vpn
+
+#### Other ###
+https://blog.exodusintel.com/2016/02/10/firewall-hacking/
+http://www.taos.com/wp-content/uploads/2015/10/Taos-White-Paper_Advanced-SSH-Tunneling.pdf
