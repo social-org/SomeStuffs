@@ -8,3 +8,18 @@ To have launchd start dnsmasq at startup:
   sudo chown root /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
 Then to load dnsmasq now:
   sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
+
+
+######
+
+cp $(brew list dnsmasq | grep /dnsmasq.conf.example$) /usr/local/etc/dnsmasq.conf
+sudo cp $(brew list dnsmasq | grep /homebrew.mxcl.dnsmasq.plist$) /Library/LaunchDaemons/
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist
+
+To start and stop dnsmasq, you can use these commands:
+sudo launchctl stop homebrew.mxcl.dnsmasq
+sudo launchctl start homebrew.mxcl.dnsmasq
+
+For simplicity you can then append your zones directly in /usr/local/etc/dnsmasq.conf or you can uncomment this line:
+conf-dir=/etc/dnsmasq.d
+and add one file per zone in /etc/dnsmasq.d/.
